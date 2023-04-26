@@ -38,11 +38,27 @@
                 margin: 10px 0;
             }
             h2{
-                font-size: 36px;
+                font-size: 2.2rem;
 
             }
             h3{
-                font-size: 30px;
+                font-size: 1.9rem;
+                span{
+                    font-size: inherit;
+                    color:crimson;
+                     
+                }
+               .ityped-cursor{
+                animation: blink 1s infinite;
+               }
+               @keyframes blink {
+                50%{
+                    opacity: 1;
+                }
+                100%{
+                    opacity: 0;
+                }
+               }
             }
             
         }
@@ -53,7 +69,7 @@
 
             img{
                 width: 30px;
-                animation:arrowBlink 2s infinite ;
+                animation:arrowBlink 2s linear  infinite alternate  ;
             }
             @keyframes arrowBlink {
                 100%{
