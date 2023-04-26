@@ -6,13 +6,20 @@ const Intro = () => {
   const textRef = useRef();
 
   useEffect(() => {
-    init(textRef.current, {
+    if (!textRef.current) {
+      return;
+    }
+    const instance = init(textRef.current, {
       showCursor: true,
       backDelay: 1500,
-      backSpeed:50,
+      backSpeed: 50,
       strings: ["Developer", "Content Creator", "Programmer"],
     });
-  });
+    return () => {
+      instance.destroy();
+    };
+  }, []);
+
 
   return (
     <div className="intro" id="home">
