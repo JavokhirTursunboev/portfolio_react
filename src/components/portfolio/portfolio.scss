@@ -13,18 +13,7 @@
         list-style: none;
         display: flex;
     
-        li{
-            font-size: 14px;
-            padding: 7px;
-            margin-right: 50px;
-            border-radius: 10px;
-            cursor: pointer;
-
-            &.active{
-                background-color: $mainColor;
-                color: white;
-            }
-        }
+      
     }
 .container{
     width: 70%;
@@ -48,6 +37,7 @@
         h3{
             position: absolute;
             font-size: 20px;
+            text-align: center;
         }
         img{
             width: 100%;
