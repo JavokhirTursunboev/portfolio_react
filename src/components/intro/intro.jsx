@@ -36,10 +36,10 @@ const Intro = () => {
            Freelance <span ref={textRef}></span>
           </h3>
         </div>
+      </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="down" />
         </a>
-      </div>
     </div>
   );
 };

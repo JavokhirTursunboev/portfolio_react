@@ -2,6 +2,9 @@
 .intro{
     background-color: white;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    
     .left{
         flex: 0.5;
         overflow: hidden;
@@ -14,6 +17,7 @@
             display: flex;
             align-items: flex-end;
             justify-content: center;
+            
             img{
                 height: 90%;
                 
@@ -62,19 +66,19 @@
             }
             
         }
-        a{
-            position: absolute;
-            bottom: 10px;
-            left: 40%;
+    }
+    a{
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
 
-            img{
-                width: 30px;
-                animation:arrowBlink 2s linear  infinite alternate  ;
-            }
-            @keyframes arrowBlink {
-                100%{
-                    opacity: 0;
-                }
+        img{
+            width: 30px;
+            animation:arrowBlink 2s linear  infinite alternate  ;
+        }
+        @keyframes arrowBlink {
+            100%{
+                opacity: 0;
             }
         }
     }
