@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/JavokhirTursunboev/portfolio_react/static/css/main.4be7c98b.css",
-    "main.js": "/JavokhirTursunboev/portfolio_react/static/js/main.55e5fcf1.js",
-    "index.html": "/JavokhirTursunboev/portfolio_react/index.html",
-    "main.4be7c98b.css.map": "/JavokhirTursunboev/portfolio_react/static/css/main.4be7c98b.css.map",
-    "main.55e5fcf1.js.map": "/JavokhirTursunboev/portfolio_react/static/js/main.55e5fcf1.js.map"
+    "main.css": "/portfolio_react/static/css/main.4be7c98b.css",
+    "main.js": "/portfolio_react/static/js/main.55e5fcf1.js",
+    "index.html": "/portfolio_react/index.html",
+    "main.4be7c98b.css.map": "/portfolio_react/static/css/main.4be7c98b.css.map",
+    "main.55e5fcf1.js.map": "/portfolio_react/static/js/main.55e5fcf1.js.map"
   },
   "entrypoints": [
     "static/css/main.4be7c98b.css",
